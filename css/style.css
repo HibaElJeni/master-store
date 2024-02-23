@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: "Lato", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.btn-primary {
+    --bs-btn-color: #030303;
+    --bs-btn-bg: #fff;
+    --bs-btn-border-color: #fff;
+    --bs-btn-hover-color: #030303;
+    --bs-btn-hover-bg: #E6F3FA;
+    --bs-btn-hover-border-color: #E6F3FA;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #030303;
+    --bs-btn-active-bg: #fff;
+    --bs-btn-active-border-color: #fff;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #030303;
+    --bs-btn-disabled-bg: #fff;
+    --bs-btn-disabled-border-color: #fff;
+    border-radius: 10px;
+    
+}
+
+.header{
+    background-color: #030303;
+    padding: 10px 0px;
+
+}
+
+.btn-outline-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-border-color: #fff;
+    --bs-btn-hover-color: #030303;      
+    --bs-btn-hover-bg: #E6F3FA;
+    --bs-btn-hover-border-color: #E6F3FA;
+    --bs-btn-focus-shadow-rgb: 13, 110, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #fff;
+    --bs-btn-active-border-color: #fff;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #fff;
+    --bs-gradient: none;
+    border-radius: 10px;
+}
+.btn-outline-secondary {
+    --bs-btn-color: #fff;
+    --bs-btn-border-color: #fff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #031F34;
+    --bs-btn-hover-border-color: #031F34;
+    --bs-btn-focus-shadow-rgb: 108,117,125;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #031F34;
+    --bs-btn-active-border-color: #031F34;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #031F34;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #031F34;
+    --bs-gradient: none;
+    width: 100%;
+}
+.btn-dark {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #030303;
+    --bs-btn-border-color: #030303;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #030303;
+    --bs-btn-hover-border-color: #030303;
+    --bs-btn-focus-shadow-rgb: 66,70,73;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #030303;
+    --bs-btn-active-border-color: #030303;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #030303;
+    --bs-btn-disabled-border-color: #030303;
+}
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color: #fff;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
+.navbar-nav {
+    --bs-nav-link-padding-x: 0;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight:400 ;
+    --bs-nav-link-color: #FFFFFF;
+    --bs-nac-link-active-color:#E6F3FA;
+    --bs-nav-link-hover-color: #E6F3FA;
+    --bs-nav-link-disabled-color: #E6F3FA;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.slide{
+    background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+ 
+.bloc1 {
+    background-color: #E6F3FA;
+    padding: 40px;
+}
+.text1{
+    font-size: 80px;
+    font-weight: 900;
+}
+p{
+    color: #8A8A8A;
+}
+h2{
+    font-weight: 800;
+}
+.header-btn {
+    margin-top: 8%;
+}
+.centered-text {
+    text-align: center;
+    height: 100px; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card{
+    background-color: #fff;
+    border-color:#030303 ;
+}
+.card-title{
+    color: #030303;
+    font-weight: 500;
+}
+.bloc2{
+
+    background-color: #FFFFFF;
+    background-size: cover;
+    background-position: center;
+   
+}
+.card-area {
+    background-color: #EEF7FB;
+    padding-top: 10px;
+}
+.cards-courses{
+    padding-top: 2%;
+    padding-bottom: 10px;
+
+}
+.card-cours {
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 10px 15px 8px 15px;
+    color: var(--bs-card-color);
+}
+.card-img,
+.card-img-top {
+    border-radius: 20px 20px 0px 0px;  
+}
+.card-footer {
+    margin-top: 10px;   
+    background-color: #fff;   
+    border-color: #EAF2F1;
+}
+.card-header {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #fff;   
+    border-color: #EAF2F1;
+}
+.card-hashtags{
+    font-size: 14px;
+    font-weight: 400;
+    color: #818181;
+
+}
+.card-price{
+    font-size: 20px;
+    font-weight: 600;
+    color: #243FF9;
+}
+.card-disc{
+    font-size: 20px;
+    font-weight: 700;
+    color: #030303;
+}
+a.link-cours{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #243FF9;
+}
+a.link-courses{
+    text-decoration: none;
+    color: #030303;
+}
+.icon{
+   color: #243FF9; 
+   margin-left: 5px;
+}
+.icon1{
+margin-left: 5px;
+}
+
+.footer{
+    background-color: #030303;
+    padding-top: 60px ;
+    padding-bottom: 20px;
+    margin-top: auto;
+}
+ul {
+    list-style: none;
+    padding-left: 0.5rem;
+}
+.body-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 20px;
+
+}
+.footer-title {
+    color: #EAF2F1;
+}
+.info-icone {
+    padding-right: 8px;
+}
+.footer .footer-link ul a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #EAF2F1;
+    margin-top: 16px;
+    font-weight: 400;
+}
+.footer .icon {
+    margin-right: 40px;
+}
+.footer-text{
+    color: #fff;
+
+}
+.footer .copyright {
+    font-size: 14px;
+    color:#EAF2F1 ;
+}
